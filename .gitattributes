@@ -1,0 +1,31 @@
+# Handle line endings automatically for text files
+# and ensure LF is used in the repository
+* text=auto eol=lf
+
+# Go source files
+*.go text eol=lf
+
+# Environment variable templates and examples
+.env.example text eol=lf
+
+# Git configuration files
+.gitattributes text eol=lf
+.gitignore text eol=lf
+
+# Go module files
+go.mod text eol=lf
+go.sum text eol=lf
+
+# Binary files
+# Note: Binaries generally should not be committed, consider adding to .gitignore
+*.exe binary
+
+# General binary file formats
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.ico binary
+
+# Documentation and markdown files (if you add them later)
+*.md text eol=lf
